@@ -1,6 +1,6 @@
 <!-- index.html -->
 
-<!DOCTYPE html prefix="og: https://ogp.me/ns#">
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -44,21 +44,33 @@
     <meta property="og:locale" content="ksa-mk" />
     <meta property="og:locale:alternate" content="uae_du" />
 
-    <link rel="stylesheet" href="dist/style.css" />
+    <!-- <link rel="stylesheet" href="dist/style.css" /> -->
     <title>E-Sport</title>
   </head>
   <body>
     <!-- header Section  -->
     <header id="header">
-      <h1>Welcome to E-Sports World</h1>
+      <h1 id="menu">Welcome to E-Sports World</h1>
       <nav>
-        <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#games">Featured Games</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul role="menu" aria-labelledby="menu">
+          <li><a href="#hero" role="menuitem" aria-haspopup="true">Home</a></li>
+          <li>
+            <a href="#games" role="menuitem" aria-haspopup="true"
+              >Featured Games</a
+            >
+          </li>
+          <li><a href="#news" role="menuitem" aria-haspopup="true">News</a></li>
+          <li>
+            <a href="#testimonials" role="menuitem" aria-haspopup="true"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a href="#about" role="menuitem" aria-haspopup="true">About Us</a>
+          </li>
+          <li>
+            <a href="#contact" role="menuitem" aria-haspopup="true">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -73,7 +85,7 @@
             Explore the exciting world of competitive gaming through our
             featured content
           </p>
-          <button class="callAction">Store Now</button>
+          <button class="callAction" aria-label="Go to store to buy">Store Now</button>
         </div>
       </section>
 
@@ -88,7 +100,7 @@
             <div class="product-image">
               <span class="discount-tag">50% off</span>
               <img
-                src="./img"
+                src="#"
                 class="product-thumb"
                 alt="Tom Clancy’s Rainbow Six Siege"
               />
@@ -106,7 +118,7 @@
           <div class="product-card">
             <div class="product-image">
               <span class="discount-tag">30% off</span>
-              <img src="./img" class="product-thumb" alt="League of Legends" />
+              <img src="#" class="product-thumb" alt="League of Legends" />
               <button class="card-btn">add to whislist</button>
             </div>
             <div class="product-info">
@@ -120,7 +132,7 @@
           <div class="product-card">
             <div class="product-image">
               <span class="discount-tag">5% off</span>
-              <img src="./img" class="product-thumb" alt="Counter-Strike" />
+              <img src="#" class="product-thumb" alt="Counter-Strike" />
               <button class="card-btn">add to whislist</button>
             </div>
             <div class="product-info">
@@ -134,7 +146,7 @@
           <div class="product-card">
             <div class="product-image">
               <span class="discount-tag">15% off</span>
-              <img src="./img" class="product-thumb" alt="Dota-2" />
+              <img src="#" class="product-thumb" alt="Dota-2" />
               <button class="card-btn">add to whislist</button>
             </div>
             <div class="product-info">
@@ -149,7 +161,7 @@
             <div class="product-image">
               <span class="discount-tag">60% off</span>
               <img
-                src="./img"
+                src="#"
                 class="product-thumb"
                 alt="League of Legends: Wild Rift"
               />
@@ -166,7 +178,7 @@
           <div class="product-card">
             <div class="product-image">
               <span class="discount-tag">20% off</span>
-              <img src="./img" class="product-thumb" alt="StarCraft II" />
+              <img src="#" class="product-thumb" alt="StarCraft II" />
               <button class="card-btn">add to whislist</button>
             </div>
             <div class="product-info">
@@ -180,7 +192,7 @@
           <div class="product-card">
             <div class="product-image">
               <span class="discount-tag">19% off</span>
-              <img src="./img" class="product-thumb" alt="FIFA" />
+              <img src="#" class="product-thumb" alt="FIFA" />
               <button class="card-btn">add to whislist</button>
             </div>
             <div class="product-info">
@@ -194,7 +206,7 @@
           <div class="product-card">
             <div class="product-image">
               <span class="discount-tag">5% off</span>
-              <img src="./img" class="product-thumb" alt="Apex Legends" />
+              <img src="#" class="product-thumb" alt="Apex Legends" />
               <button class="card-btn">add to whislist</button>
             </div>
             <div class="product-info">
@@ -208,7 +220,7 @@
           <div class="product-card">
             <div class="product-image">
               <span class="discount-tag">50% off</span>
-              <img src="./img" class="product-thumb" alt="Rocket League" />
+              <img src="#" class="product-thumb" alt="Rocket League" />
               <button class="card-btn">add to whislist</button>
             </div>
             <div class="product-info">
@@ -222,7 +234,7 @@
           <div class="product-card">
             <div class="product-image">
               <span class="discount-tag">10% off</span>
-              <img src="./img" class="product-thumb" alt="Call of Duty" />
+              <img src="#" class="product-thumb" alt="Call of Duty" />
               <button class="card-btn">add to whislist</button>
             </div>
             <div class="product-info">
@@ -236,7 +248,7 @@
           <div class="product-card">
             <div class="product-image">
               <span class="discount-tag">30% off</span>
-              <img src="./img" class="product-thumb" alt="Valorant" />
+              <img src="#" class="product-thumb" alt="Valorant" />
               <button class="card-btn">add to whislist</button>
             </div>
             <div class="product-info">
@@ -252,24 +264,33 @@
       <!-- news Section  -->
       <section id="news">
         <h2>Subscribe to Our Newsletter</h2>
-        <form action="#">   
-        <label for="news" >
-          Stay updated with the latest e-sports news and exclusive offers.
-          Subscribe now!
-        </label>
-        <div class="subscribe-form">
-          <input
-            type="email"
-            id="news"
-            class="email-input"
-            placeholder="Enter your email"
-          />
-          <br>
-          <button class="subscribe-button" onclick="subscribe()">
-            Subscribe
-          </button>
-        </div>
-      </form>
+        <form action="#" autocomplete="on">
+          <label for="newsInput">
+            Stay updated with the latest e-sports news and exclusive offers.
+            Subscribe now!
+          </label>
+          <div class="subscribe-form">
+            <input
+              type="email"
+              name="email"
+              id="newsInput"
+              class="email-input"
+              placeholder="example@domain.com"
+              aria-describedby="help"
+              aria-invalid="false"
+            />
+            <div id="help">Enter your valid email</div>
+            <br />
+            <button
+              class="subscribe-button"
+              aria-describedby="Subscribe-new"
+              onclick="subscribe()"
+              type="submit"
+              aria-label="to send news for you"            >
+              Subscribe
+            </button>
+          </div>
+        </form>
       </section>
 
       <!-- Testimonials Section -->
