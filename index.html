@@ -44,49 +44,70 @@
     <meta property="og:locale" content="ksa-mk" />
     <meta property="og:locale:alternate" content="uae_du" />
 
-    <!-- <link rel="stylesheet" href="dist/style.css" /> -->
+    <link rel="stylesheet" href="style.css" />
     <title>E-Sport</title>
   </head>
   <body>
     <!-- header Section  -->
-    <header id="header">
-      <h1 id="menu">Welcome to E-Sports World</h1>
-      <nav>
-        <ul role="menu" aria-labelledby="menu">
-          <li><a href="#hero" role="menuitem" aria-haspopup="true" tabindex="0">Home</a></li>
+    <header id="header" class="card-header">
+      <nav class="card__nav">
+        <ul role="menu">
+          <li>
+            <a href="#hero" role="menuitem" aria-haspopup="true" tabindex="0"
+              >Home</a
+            >
+          </li>
           <li>
             <a href="#games" role="menuitem" aria-haspopup="true" tabindex="0"
               >Featured Games</a
             >
           </li>
-          <li><a href="#news" role="menuitem" aria-haspopup="true" tabindex="0">News</a></li>
           <li>
-            <a href="#testimonials" role="menuitem" aria-haspopup="true" tabindex="0"
+            <a href="#news" role="menuitem" aria-haspopup="true" tabindex="0"
+              >News</a
+            >
+          </li>
+          <li>
+            <a
+              href="#testimonials"
+              role="menuitem"
+              aria-haspopup="true"
+              tabindex="0"
               >Testimonials</a
             >
           </li>
           <li>
-            <a href="#about" role="menuitem" aria-haspopup="true" tabindex="0">About Us</a>
+            <a href="#about" role="menuitem" aria-haspopup="true" tabindex="0"
+              >About Us</a
+            >
           </li>
           <li>
-            <a href="#contact" role="menuitem" aria-haspopup="true" tabindex="0">Contact</a>
+            <a href="#contact" role="menuitem" aria-haspopup="true" tabindex="0"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>
     </header>
 
     <!-- main Section  -->
-    <main id="main">
+    <main id="main" class="card-main">
       <!-- Hero Section  -->
-      <section id="hero">
-        <div class="content">
-          <h1 class="subHeading">Made Your Life</h1>
-          <p class="headingLine">
-            Explore the exciting world of competitive gaming through our
-            featured content
-          </p>
-          <button class="callAction" aria-label="Go to store to buy">Store Now</button>
-        </div>
+      <section id="hero" class="card-hero">
+          <h1 class="card__title">Made Your Life</h1>
+          <pre class="card__subtitle">
+            Explore the exciting world
+                 of competitive gaming through our
+                 featured content
+          </pre
+          >
+          <button
+            class="card__action"
+            aria-label="Go to store to buy"
+            tabindex="0"
+          >
+            Store Now
+          </button>
       </section>
 
       <!-- Content Sections -->
@@ -288,7 +309,8 @@
               onclick="subscribe()"
               type="submit"
               tabindex="0"
-              aria-label="to send news for you"            >
+              aria-label="to send news for you"
+            >
               Subscribe
             </button>
           </div>
