@@ -86,7 +86,17 @@
     padding: 32px 16px;
     background-color: #e7e7e7de;
 
+    position: relative;
+    animation: mymove 5s;
+    animation-timing-function: ease-in;
   }
+
+/* for animation */
+  @keyframes mymove {
+    from {top: 300px;}
+    to {top: 0px;}
+  }
+
 
   /* end style hero */
 
