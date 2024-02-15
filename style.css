@@ -10,15 +10,19 @@
 
 /* start style header and nav */
 
-  .card__nav {
+.card-header{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+  .header__nav {
     background-color: #123ec4a6;
     padding: 0.5rem;
-    top: 0;
-    z-index: 1;
-    position: sticky;
   }
 
-  .card__nav ul {
+  .header__nav ul {
    list-style: none;
     margin: 0;
     padding: 0;
@@ -26,17 +30,17 @@
     justify-content: center;
   }
 
-  .card__nav li {
+  .header__nav li {
     margin: 0 1rem;
   }
 
-  .card__nav a {
+  .header__nav a {
     text-decoration: none;
     color: #090909;
     font-weight: bold;
   }
 
-  .card__nav a:hover{
+  .header__nav a:hover{
     color: #9eb1a1;
   }
   /* end style header and nav */
@@ -47,10 +51,10 @@
   flex-direction: column;
   }
 
-  /* end style hero  */
+  /* end style main  */
 
   /* start style hero */
-  .card-hero{
+  .main-hero{
     height: 94vh;
     background-image: url('https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
@@ -62,20 +66,20 @@
     flex-direction: column;
   }
 
-  .card__title{
+  .hero__title{
     font-family: "Sacramento", cursive;
     font-size: 5rem;
   }
-  .card__subtitle{
+  .hero__subtitle{
     text-align: center;
   }
 
-  .card__subtitle::first-letter{
+  .hero__subtitle::first-letter{
     color: rgb(180, 26, 26);
     font-size: 1.4rem;
   }
 
-  .card__action{
+  .hero__action{
     border: none;
     font-size: 24px;
     color: rgb(17, 43, 148);
@@ -84,10 +88,18 @@
 
   }
 
-  /* start style main */
+  /* end style hero */
+  /* start style game */
+  .card-games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
 
       
-  /* end style main  */
+  /* end style game  */
   /* start style main */
 
       
