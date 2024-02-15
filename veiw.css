@@ -70,4 +70,12 @@ margin-top: 1rem;
 }
 /* end style news  */
 
-
+  /* start media Query */
+  @media screen and (max-width: 768px){
+ 
+    .line-horiz{
+        flex-direction: column;
+        padding: 2rem;
+      }
+  }
+    /* end media Query */

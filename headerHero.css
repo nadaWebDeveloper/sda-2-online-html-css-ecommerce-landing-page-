@@ -89,3 +89,27 @@
   }
 
   /* end style hero */
+
+
+
+
+  /* start media Query */
+@media screen and (max-width: 768px){
+  .header__nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .hero__title{
+      font-size: 4rem;
+    }
+
+    .main-hero{
+      height: 78vh;
+    }
+    
+}
+  /* end media Query */

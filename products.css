@@ -5,7 +5,6 @@
     flex-direction: column;
     background-color: #e88e8ea8;
     height: 79vh;
-
   }
 
 .games__container{
@@ -116,3 +115,15 @@
 
   /* end style game  */
 
+  /* start media Query */
+  @media screen and (max-width: 768px){
+    .games__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem;
+      } 
+      
+  }
+    /* end media Query */
