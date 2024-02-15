@@ -1,0 +1,91 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0.1rem;
+    box-sizing: border-box;
+    font-family: "Bahianita", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* start style header and nav */
+
+.card-header{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+  .header__nav {
+    background-color: #123ec4a6;
+    padding: 0.5rem;
+  }
+
+  .header__nav ul {
+   list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__nav li {
+    margin: 0 1rem;
+  }
+
+  .header__nav a {
+    text-decoration: none;
+    color: #090909;
+    font-weight: bold;
+  }
+
+  .header__nav a:hover{
+    color: #9eb1a1;
+  }
+  /* end style header and nav */
+
+  /* start style main */
+  .card-main{
+  display: flex;
+  flex-direction: column;
+  }
+
+  /* end style main  */
+
+  /* start style hero */
+  .main-hero{
+    height: 94vh;
+    background-image: url('https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero__title{
+    font-family: "Sacramento", cursive;
+    font-size: 5rem;
+  }
+  .hero__subtitle{
+    text-align: center;
+  }
+
+  .hero__subtitle::first-letter{
+    color: rgb(180, 26, 26);
+    font-size: 1.4rem;
+  }
+
+  .hero__action{
+    border: none;
+    font-size: 24px;
+    color: rgb(17, 43, 148);
+    padding: 32px 16px;
+    background-color: #e7e7e7de;
+
+  }
+
+  /* end style hero */
