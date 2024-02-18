@@ -44,6 +44,8 @@
   text-transform: capitalize;
   margin: 0 10px;
   background-color: rgba(240, 248, 255, 0.743);
+  border-radius: 13px;
+  padding-top: 0.4rem;
   box-shadow: 5px 5px 10px 0px rgba(242, 239, 239, 0.607);
 }
 /* end style testimonials  */

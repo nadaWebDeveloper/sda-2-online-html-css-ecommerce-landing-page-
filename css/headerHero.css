@@ -56,7 +56,7 @@
 /* start style hero */
 .main-hero {
   height: 94vh;
-  background-image: url("https://images.pexels.com/photos/411207/pexels-photo-411207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("../img/pexels-sebastian-arie-voortman-411207.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,6 +73,7 @@
 }
 .hero__subtitle {
   text-align: center;
+  z-index: 1;
 }
 
 .hero__subtitle::first-letter {
@@ -90,8 +91,8 @@
 
 .hero__border{
   position: relative;
-  top: 90px;
-  left: -120px;
+  top: 97px;
+  left: -138px;
   animation: mymove 3s;
   animation-timing-function: ease-in;
   background-color:aqua ;
@@ -126,6 +127,11 @@
 
   .main-hero {
     height: 78vh;
+  }
+
+  .hero__border{
+    top: 145px;
+    left: -120px;
   }
 }
 /* end media Query */
