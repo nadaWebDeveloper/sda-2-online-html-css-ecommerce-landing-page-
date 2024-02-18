@@ -134,4 +134,31 @@
     justify-content: space-between;
   }
 }
+@media screen and (max-width: 600px) {
+
+  .swiper__slide {
+    width: 310px;
+    margin: 3 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .swiper__container {
+    width: 317px;
+  }
+
+  .email-input {
+    width: 12rem;
+  }
+
+  .news-title {
+    font-size: 4rem;
+  }
+
+  .swiper__container {
+    overflow-x: hidden;
+  }
+}
 /* end media Query */
