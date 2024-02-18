@@ -1,19 +1,39 @@
 /* start style about  */
-.card-about{
-    text-align: center;
-    background-color: rgba(41, 41, 43, 0.961);
-    color: rgba(240, 248, 255, 0.789);
-    padding: 2rem;
+.card-about {
+  text-align: center;
+  padding: 3rem;
+  background-image: url("https://images.pexels.com/photos/13056973/pexels-photo-13056973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0.5rem;
+  color: #ffffff9e;
+}
+
+.about__title {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+  color: rgba(151, 6, 6, 0.875);
+}
+
+.about__prag {
+  background-color: #d9d5d58f;
+  padding: 2rem;
+  color: black;
 }
 /* end style about  */
 
 /* start style footer  */
-.card-footer{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5rem;
-    padding-bottom: 0;
+.card-footer {
+  padding: 3rem;
+  background-color: #0a0909d2;
+  margin-top: 0.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffffc5;
+  padding-bottom: 1rem;
 }
 /* end style footer  */
