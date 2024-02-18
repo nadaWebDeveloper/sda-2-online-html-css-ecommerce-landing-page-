@@ -93,6 +93,8 @@
   width: 100%;
   height: 100px;
   padding-top: 10px;
+  overflow-x: auto;
+  
 }
 
 .product-brand {
@@ -133,5 +135,6 @@
     flex-direction: column;
     padding: 2rem;
   }
+
 }
 /* end media Query */
